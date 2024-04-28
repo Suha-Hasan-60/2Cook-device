@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Cabin Sketch';
+    src: url('CabinSketch-Regular.woff2') format('woff2'),
+         url('CabinSketch-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Akaya Telivigala';
+    src: url('AkayaTelivigala-Regular.woff2') format('woff2'),
+         url('AkayaTelivigala-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  body {
+    font-family: 'Cabin Sketch', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E8D8D4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+
+.info-container {
+    background: #BEABA7;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 90%;
+}
+
+.info-container h2 {
+    margin-top: 0;
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.info-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.info-group p {
+    margin: 0;
+    color: #333;
+    font-size: 18px;
+}
+
+.info-group p:first-child {
+    flex: 1;
+    text-align: left;
+}
+
+.info-group p:last-child {
+    flex: 2;
+    text-align: right;
+}
